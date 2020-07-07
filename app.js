@@ -3,7 +3,7 @@ let Rock = document.getElementById('rock').addEventListener('click', runGame);
 let Paper = document.getElementById('paper').addEventListener('click', runGame);
 let Scissors = document.getElementById('scissors').addEventListener('click', runGame);
 
-// post results to correesponding divs
+// post results to corresponding divs
 let playerResult = document.getElementById('player');
 let computerResult = document.getElementById('computer');
 let result = document.getElementById('result');
