@@ -1,10 +1,26 @@
 body {
-    background: linear-gradient(to bottom, #384182, #ffc600);
+    background: linear-gradient( #384182, #ffc600 );
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
 }
 
 h1 {
+    text-align: center;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#rock {
+    text-align: center;
+}
+
+#paper {
+    text-align: center;
+}
+
+#scissors {
     text-align: center;
 }
