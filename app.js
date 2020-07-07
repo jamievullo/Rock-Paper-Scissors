@@ -32,24 +32,19 @@ function compareChoices() {
     player.innerHTML = "Player chose: " + playerPick
     computer.innerHTML = "Computer chose: " + computerPick
 
-    switch(playerPick !== computerPick) {
-        case playerPick === computerPick: 
-            result.innerText = "Draw"
-        case playerPick === "rock" && computerPick === "paper":
-            result.innerText = "Defeat"
-        case playerPick === "rock" && computerPick === "scissors":
-            result.innerText = "You Are Victorious"
-        case playerPick === "scissors" && computerPick === "rock":
-            result.innerText = "Defeat"
-        case playerPick === "scissors" && computerPick === "paper":
-            result.innerText = "You Are Victorious"
-        case playerPick === "paper" && computerPick === "scissors":
-            result.innerText = "Defeat"
-        case playerPick === "paper" && computerPick === "rock":
-            result.innerText = "You Are Victorious"
-        default:
-            console.log("something is wrong")
+    if(playerPick === computerPick ){
+        result.innerText = "Draw"
+    } else if (playerPick === "rock" && computerPick === "paper"){
+        result.innerText = "Defeat"
+    } else if (playerPick === "rock" && computerPick === "scissors"){
+        result.innerText = "You Are Victorious"
+    } else if (playerPick === "scissors" && computerPick === "rock"){
+        result.innerText = "Defeat"
+    } else if (playerPick === "scissors" && computerPick === "paper"){
+        result.innerText = "You Are Victorious"
+    } else if (playerPick === "paper" && computerPick === "scissors"){
+        result.innerText = "Defeat"
+    } else if (playerPick === "paper" && computerPick === "rock"){
+        result.innerText = "You Are Victorious"
     }
-    console.log(result.innerText)
-
 }
