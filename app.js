@@ -37,14 +37,14 @@ function compareChoices() {
     } else if (playerPick === "rock" && computerPick === "paper"){
         result.innerText = "Defeat"
     } else if (playerPick === "rock" && computerPick === "scissors"){
-        result.innerText = "You Are Victorious"
+        result.innerText = "You Are Victorious!!"
     } else if (playerPick === "scissors" && computerPick === "rock"){
         result.innerText = "Defeat"
     } else if (playerPick === "scissors" && computerPick === "paper"){
-        result.innerText = "You Are Victorious"
+        result.innerText = "You Are Victorious!!"
     } else if (playerPick === "paper" && computerPick === "scissors"){
         result.innerText = "Defeat"
     } else if (playerPick === "paper" && computerPick === "rock"){
-        result.innerText = "You Are Victorious"
+        result.innerText = "You Are Victorious!!"
     }
 }
