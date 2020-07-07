@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+    color: white;
     text-align: center;
 }
 
@@ -22,5 +23,17 @@ h1 {
 }
 
 #scissors {
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 2em;
     text-align: center;
 }
