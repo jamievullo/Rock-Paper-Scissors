@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to bottom, #384182, #ffc600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+h1 {
+    text-align: center;
+}
